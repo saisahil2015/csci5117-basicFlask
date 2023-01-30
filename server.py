@@ -14,5 +14,5 @@ def hello_world():
 @app.route('/hi', methods=['GET'])
 def hi():
     # looking for username in query parameters. the one after "?"
-    user_name = request.args.get("userName", "unknown")
-    return render_template('main.html', user=user_name)
+    # user_name = request.args.get("userName", "unknown")
+    return render_template('main.html')

@@ -1,3 +1,27 @@
+h1{
+    color: black;
+    margin-left: 45%;
+}
+
+img{
+    width: 50%;
+    margin-left: 20%
+}
+
 body{
-    background-color: blue;
+    background-color:#ffe79a;
+    
+
+}
+
+.info{
+    width: 50%;
+    margin-left: 25rem;
+    border: 1px;
+    border-color: black;
+    padding: 2rem;
+    border-style: dotted;
+    color: rebeccapurple;
+    background-color: antiquewhite;
+
 }
