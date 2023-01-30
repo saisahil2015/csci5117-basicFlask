@@ -16,3 +16,9 @@ def hi():
     # looking for username in query parameters. the one after "?"
     # user_name = request.args.get("userName", "unknown")
     return render_template('main.html')
+
+
+@app.route('/hi', methods=['GET'])
+@app.route('/hi/<name>')
+def hello(name=None):
+    return render_template('main.html', name=name)
