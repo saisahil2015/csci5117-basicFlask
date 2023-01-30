@@ -41,7 +41,7 @@
     <div class="container">
         <div class="info">
             <p>Biryani is an amazing cuisine that tastes good and has many different variations available to eat. It's spicy but amazing and one of the best go to dishes to eat.</p>
-            <img src="./static/biryani.jpeg" alt="biryani">
+            <img src="{{url_for('static', filename='biryani.jpeg')}}" alt="biryani">
             <p>Register yourself as a guest to be served the biryani for free</p>
             <input id = "names" type="text" value="Add Your Name">
             <button id="moreInfo" onclick="register()">Register</button>
