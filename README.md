@@ -11,3 +11,9 @@ flask --app server.py --debug run
 #http://127.0.0.1:5000/hi?userName=Random to test with query with username
 
 #Figure out how to make JS work with this
+
+#References:
+
+https://flask.palletsprojects.com/en/2.2.x/
+
+https://jinja.palletsprojects.com/en/3.1.x/

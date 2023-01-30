@@ -19,8 +19,6 @@
 </body>
 </html> -->
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,8 +34,8 @@
     {%endif%}
 
 </head>
-<link rel="stylesheet" href="/static/style.css">
-<script src="/static/main.js"></script>
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+<script src="{{url_for('static', filename='main.js')}}"></script>
 <body>
     <h1>The Biryani Hub</h1>
     <div class="container">
@@ -46,7 +44,7 @@
             <img src="./static/biryani.jpeg" alt="biryani">
             <p>Register yourself as a guest to be served the biryani for free</p>
             <input id = "names" type="text" value="Add Your Name">
-            <!-- <button id="moreInfo" onclick="register()">Register</button> -->
+            <button id="moreInfo" onclick="register()">Register</button>
             <ul id="list" >
                 <li>Sahil Raina</li>
            </ul>
